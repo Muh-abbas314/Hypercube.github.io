@@ -35,7 +35,7 @@ h1:hover {
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url("peakpx.jpg");
+  /* background-image: url("peakpx.jpg"); */
 }
 
 .overlay {
@@ -62,14 +62,30 @@ h1:hover {
   margin: 0;
   font-size: 28px;
 }
-    </style>
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: clamp(3rem, 2vw, 2rem);
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+  background-color: aliceblue;
+  font-size: clamp(3rem, 2vw, 2rem);
+}
+  </style>
 </head>
 <body>
     <div class="big-image">
         <div class="overlay">
             <h1 data-value="WELCOME">WELCOME</h1>
-        </div>
+          <a data-value="Click Me...../?" href="Card.html">Click Me..</a>
+          </div>
       </div>
-</body>
+
+      
+
+     </body>
 <script src="index.js"></script>
 </html>
